@@ -1,0 +1,63 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css');
+
+.articles {
+  column-count: 3;
+}
+
+.box {
+  margin-bottom: 3rem;  
+  break-inside: avoid-column;
+}
+h3{
+  font-size: 20px;
+  font-style: italic;
+}
+h1{
+  font-size: 25px;
+}
+.box img {
+  width: 100%;
+}
+button{
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  color: #fff;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.box .image {
+  margin-bottom: 1rem;
+}
+
+.box .controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box .article-link {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 1rem;
+  display: block;
+}
+.controls{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fs-4{
+  font-style: italic;
+  color: rgb(247, 247, 247);
+}
